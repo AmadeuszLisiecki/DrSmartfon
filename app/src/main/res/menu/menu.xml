@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="projekt.swd.drsmartfon.MainActivity">
+    <item
+        android:id="@+id/diseases"
+        android:orderInCategory="100"
+        android:title="Znajdź chorobę"
+        app:showAsAction="never" />
+    <item
+        android:title="Znajdź objawy"
+        android:orderInCategory="101"
+        android:id="@+id/sympthoms" />
+</menu>
